@@ -1,4 +1,4 @@
-Issue https://github.com/JetBrains/compose-multiplatform/issues/3453
+Issue https://github.com/JetBrains/compose-multiplatform/issues/3453  
 Inconsistency in Material3 between Android vs Desktop (and iOS)
 
 ### Desktop and iOS
