@@ -17,18 +17,15 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun App() {
     MaterialTheme {
-        Box(modifier = Modifier.fillMaxSize(), Alignment.Center) {
+        Box(modifier = Modifier.size(100.dp), Alignment.Center) {
             CircleWithText()
         }
     }
 }
 
 @Composable
-fun CircleWithText(
-    modifier: Modifier = Modifier,
-    size: Dp = 24.dp,
-) {
-    Box(modifier.size(size), contentAlignment = Alignment.Center) {
+fun CircleWithText() {
+    Box(Modifier.size(24.dp), contentAlignment = Alignment.Center) {
         Canvas(modifier = Modifier.fillMaxSize()) {
             drawCircle(SolidColor(Color.Gray))
         }
