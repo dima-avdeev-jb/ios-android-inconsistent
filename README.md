@@ -38,3 +38,6 @@ fun CircleWithText() {
     }
 }
 ```
+
+
+For newer versions of Compose follow here: https://github.com/dima-avdeev-jb/issues-3453-inconsistence
